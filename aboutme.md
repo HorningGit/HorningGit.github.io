@@ -27,7 +27,7 @@ ___
 
 DevOps Tool Type | Tool Names
 :------|:------:
-IaC & Source Control | <img alt="Ansible" src="https://img.shields.io/badge/Ansible-000000?style=plastic?&logo=ansible&logoColor=white" /> <img alt="Git" src="https://img.shields.io/badge/Git-E44C30?style=plastic?&logo=git&logoColor=white" /> <img alt="Terraform" src="https://img.shields.io/badge/terraform-%235835CC.svg?style=plastice&logo=Terraform&logoColor=white" />
+IaC & Source Control | <img alt="Ansible" src="https://img.shields.io/badge/Ansible-000000?style=plastic?&logo=ansible&logoColor=white" /> <img alt="Git" src="https://img.shields.io/badge/Git-E44C30?style=plastic?&logo=git&logoColor=white" /> <img alt="Terraform" src="https://img.shields.io/badge/Terraform-%235835CC.svg?style=plastice&logo=Terraform&logoColor=white" />
 CI/CD | <img alt="GitHub Actions" src="https://img.shields.io/badge/Github%20Actions-%232671E5.svg?style=plastic&logo=githubactions&logoColor=white" /> <img alt="GitLab" src="https://img.shields.io/badge/GitLab%20CI-%23181717.svg?style=plastic&logo=gitlab&logoColor=white">
 Workflow Platforms | <img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=plastic?&logo=Jira&logoColor=white" />
 Monitoring & Dashboards | <img alt="Grafana" src="https://img.shields.io/badge/Grafana-F2F4F9?style=plastic?&logo=grafana&logoColor=orange&labelColor=F2F4F9" /> <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-000000?style=plastic?&logo=prometheus&labelColor=000000" />
