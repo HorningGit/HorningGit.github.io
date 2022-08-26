@@ -31,7 +31,7 @@ navbar-links:
     - Kubernetes Docs: "https://kubernetes.io/docs/home/"
     - Prometheus Docs: "https://prometheus.io/docs/introduction/overview/"
     - Terraform Docs: "https://www.terraform.io/docs" 
-  Study:
+  Study Platforms:
     - A Cloud Guru: "https://acloudguru.com/"
     - Codecademy: "https://www.codecademy.com/learn"
 
