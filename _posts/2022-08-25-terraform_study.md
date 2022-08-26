@@ -1,7 +1,7 @@
 ---
 layout: post
-title: First Blog
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Study Night Notes
+subtitle: A Cloud Guru (Terraform | LPIC-1)
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
