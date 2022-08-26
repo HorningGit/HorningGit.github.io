@@ -2,9 +2,9 @@
 layout: post
 title: Study Night Notes
 subtitle: A Cloud Guru (Terraform | LPIC-1)
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/terraform.jpg
+thumbnail-img: /assets/img/terraform.png
+share-img: /assets/img/terraform.jpg
 tags: [books, test]
 ---
 
