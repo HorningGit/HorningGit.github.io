@@ -8,7 +8,8 @@ share-img: /assets/img/path.jpg
 tags: [books, test]
 ---
 
-Tonight I configured my GitHub Pages main configuration files and studied modules and variablese in Terraform.
+Tonight I configured my GitHub Pages main configuration files and studied modules and variablese in Terraform. Tonight I configured my GitHub Pages main configuration files and studied modules and variablese in Terraform. Tonight I configured my GitHub Pages main configuration files and studied modules and variablese in Terraform.
+
 
 ### Notification
 
