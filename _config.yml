@@ -21,7 +21,7 @@ author: Horning, Alexander
 
 navbar-links:
   About Me: "aboutme"
-  Toolkit Information:
+  Toolkit Documentation:
     - Ansible Docs: "https://docs.ansible.com/"
     - Azure Docs: "https://docs.microsoft.com/en-us/azure/?product=popular"
     - Docker Docs: "https://docs.docker.com/"
