@@ -29,3 +29,13 @@ sudo apt-mark hold kubelet kubeadm kubectl
 # Verify Installation
 kubeadm version
 ```
+
+```bash
+# Initialize the cluster on the Kube Master server
+sudo kubeadm init --pod-network-cidr=10.244.0.0/16
+
+# Set up the Local kubeconfig
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
