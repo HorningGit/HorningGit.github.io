@@ -1,13 +1,31 @@
 ---
 layout: post
-title: Terraform Providers
-subtitle: (Studying Terraform w/ Deployments to AWS)
+title: Kubernetes Env. Setup
+subtitle: (Studying K8s in "A Cloud Guru" VMs)
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/terraform.png
+thumbnail-img: /assets/img/k8s.png
 share-img: /assets/img/path.jpg
-tags: [terraform, aws]
+tags: [kubernetes, cloud]
 ---
 
-Tonight I was able to finish some documentation for a Terraform lab. It was my first time using Terraform with AWS resources tonight, and I had a really good time. Here is a link to Terraform's official [AWS registry](https://registry.terraform.io/providers/hashicorp/aws/latest). The differences in the various Terraform blocks are starting to make a lot more sense to me (ie. providers, resource, etc.)
+```bash
+# Add the K8s Repo GPG Key
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 
-Here is snipit of my Terraform code I desployed to AWS tonight!
+# Add K8s Repo
+cat << EOF | sudo tee /etc/apt/sources.list.d/kubernetes.list
+deb https://apt.kubernetes.io/ kubernetes-xenial main
+EOF
+
+# Update apt sources list
+sudo apt-get update
+
+# Install our Packages
+sudo apt-get install -y kubelet=1.15.7-00 kubeadm=1.15.7-00 kubectl=1.15.7-00
+
+# Prevent Auto-Updates for Kube Packages
+sudo apt-mark hold kubelet kubeadm kubectl
+
+# Verify Installation
+kubeadm version
+```
