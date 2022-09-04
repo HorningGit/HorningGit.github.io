@@ -8,6 +8,7 @@ share-img: /assets/img/path.jpg
 tags: [kubernetes, cloud]
 ---
 
+## Installing Kubernetes Components
 ```bash
 # Add the K8s Repo GPG Key
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
@@ -30,6 +31,7 @@ sudo apt-mark hold kubelet kubeadm kubectl
 kubeadm version
 ```
 
+## Bootstrapping a Cluster
 ```bash
 # Initialize the cluster on the Kube Master server
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
